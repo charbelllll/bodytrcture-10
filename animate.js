@@ -252,7 +252,7 @@ function download () {
   let blob = new Blob([ buffer ], { type: "application/octect-stream" })
   let link = document.createElement('a')
   link.href = window.URL.createObjectURL(blob)
-  link.download = 'CLOTH_16.3dm'
+  link.download = 'CLOTH_18.3dm'
   link.click()
 }
 
